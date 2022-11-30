@@ -8,7 +8,7 @@ body {
   max-width: 7em;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: stretch;
 }
 p {
   font-size:large;
