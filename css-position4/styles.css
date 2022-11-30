@@ -4,6 +4,63 @@ body {
 
 .grid {
   display: grid;
-  column-gap: 1em;
-  row-gap: 1em;
+  gap: 0.5em;
+  grid-template-areas: 
+    "violet1 green1 green1 blue1 pink1"
+    "orange1 green1 green1 blue1 pink1"
+  ;
+  height: 10em;
+}
+
+.grid .item:nth-child(1) {
+  background-color: blueviolet;
+  grid-area: violet1;
+}
+
+.grid .item:nth-child(2) {
+  background-color: orange;
+  grid-area: orange1;
+}
+
+.grid .item:nth-child(3) {
+  background-color: greenyellow;
+  grid-area: green1;
+}
+
+.grid .item:nth-child(4) {
+  background-color: aqua;
+  grid-area: blue1;
+}
+
+.grid .item:nth-child(5) {
+  background-color: palevioletred;
+  grid-area: pink1;
+}
+
+.tooltip {
+  display: none;
+}
+
+.box {
+  display: grid;
+  padding-top: 20px;
+}
+
+.diamond {
+  background-color: white;
+  height: 2em;
+  width: 2em;
+  text-align: center;
+  transform: rotate(45deg);
+  justify-self: center;
+  align-self: center;
+  
+}
+
+.diamond p {
+  transform: rotate(-45deg);
+  display: table-cell;
+  height: 2em;
+  width: 2em;
+  vertical-align: middle;
 }
