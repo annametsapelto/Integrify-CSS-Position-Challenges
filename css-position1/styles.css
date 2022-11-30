@@ -5,10 +5,11 @@ body {
 .container {
   background-color: bisque;
   height: 20em; /* vh vw em rem */  
-  width: 8em;
+  max-width: 7em;
   display: flex;
   align-items: center;
   justify-content: center;
+  align-content: space-between;
   padding: 0em;
 }
 p {
