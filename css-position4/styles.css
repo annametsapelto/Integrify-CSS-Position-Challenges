@@ -41,9 +41,9 @@ body {
   display: none;
 }
 
-.box {
-  display: grid;
-  padding-top: 20px;
+.item {
+  display: grid; 
+  place-content: center;
 }
 
 .diamond {
@@ -52,9 +52,6 @@ body {
   width: 2em;
   text-align: center;
   transform: rotate(45deg);
-  justify-self: center;
-  align-self: center;
-  
 }
 
 .diamond p {
