@@ -9,11 +9,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-content: space-between;
-  padding: 0em;
 }
 p {
   font-size:large;
-  padding: 0;
 
 }
